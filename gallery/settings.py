@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
-import django_heroku
+import django_herokusharalbum
 import dj_database_url
 from decouple import config,Csv
 
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'photos.apps.PhotosConfig',
     'bootstrap3',
+    'photos',
 ]
 
 MIDDLEWARE = [
